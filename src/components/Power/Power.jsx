@@ -1,9 +1,9 @@
 import React, { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import './power.scss';
+import './Power.scss';
 
-const ProductionStats = () => {
+const Power = () => {
   useEffect(() => {
     AOS.init({ duration: 1000 });
   }, []);
@@ -39,4 +39,4 @@ const ProductionStats = () => {
   );
 };
 
-export default ProductionStats;
+export default Power;

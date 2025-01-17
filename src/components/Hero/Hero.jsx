@@ -3,7 +3,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import "./Hero.scss";
 
-const App = () => {
+const Hero = () => {
   useEffect(() => {
     AOS.init({ duration: 1000 });
   }, []);
@@ -84,4 +84,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default Hero;

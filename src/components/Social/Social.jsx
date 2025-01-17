@@ -7,7 +7,7 @@ import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import data from './data.json'; // Assuming data.json is in the same directory
 
-const SocialResponsibility = () => {
+const Social = () => {
   useEffect(() => {
     AOS.init({ duration: 1000 });
   }, []);
@@ -38,4 +38,4 @@ const SocialResponsibility = () => {
   );
 };
 
-export default SocialResponsibility;
+export default Social;

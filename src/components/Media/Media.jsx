@@ -14,7 +14,7 @@ const mediaData = [
   { id: 8, title: "Image 8", image: "media-8.png", alt: "Image 8 Description" },
 ];
 
-const MediaSection = () => {
+const Media = () => {
   React.useEffect(() => {
     aos.init({ duration: 1000 });
   }, []);
@@ -33,4 +33,4 @@ const MediaSection = () => {
   );
 };
 
-export default MediaSection;
+export default Media;

@@ -3,7 +3,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import "./Product.scss"; // Создайте этот файл для стилей
 
-const ProductSection = () => {
+const Product = () => {
   useEffect(() => {
     AOS.init({ duration: 1000 });
   }, []);
@@ -47,4 +47,4 @@ const ProductSection = () => {
   );
 };
 
-export default ProductSection;
+export default Product;

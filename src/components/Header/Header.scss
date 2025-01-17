@@ -97,8 +97,16 @@
         justify-content: center;
     }
 
-    .nav ul {
+    .link {
+        display: flex;
         flex-direction: column;
         gap: 30px;
     }
+}
+.link {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    // flex-direction: column;
+
 }

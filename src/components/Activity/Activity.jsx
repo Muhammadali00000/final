@@ -3,7 +3,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import "./Activity.scss"; // Создайте этот файл для стилей
 
-const ActivitySection = () => {
+const Activity = () => {
   useEffect(() => {
     AOS.init({ duration: 1000 });
   }, []);
@@ -50,4 +50,4 @@ const ActivitySection = () => {
   );
 };
 
-export default ActivitySection;
+export default Activity;

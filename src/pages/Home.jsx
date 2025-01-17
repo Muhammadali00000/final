@@ -7,6 +7,7 @@ import Modern from '../components/Modern/Modern'
 import Power from '../components/Power/Power'
 import Social from '../components/Social/Social'
 import Media from '../components/Media/Media'
+import Footer from '../components/Footer/Footer'
 
 
 

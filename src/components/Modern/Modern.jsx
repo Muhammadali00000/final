@@ -3,7 +3,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import "./Modern.scss";
 
-const App = () => {
+const Modern = () => {
   useEffect(() => {
     AOS.init({ duration: 1000 });
   }, []);
@@ -55,4 +55,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default Modern;

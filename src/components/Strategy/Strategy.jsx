@@ -1,6 +1,5 @@
 import React from "react";
 import './Strategy.scss'
-import { Link } from "react-router-dom";
 
 const Strategy = () => {
   return (
@@ -25,7 +24,6 @@ const Strategy = () => {
                 и процветание региона.
               </p>
               
-              <Link className="btn">ПОДРОБНЕЕ →</Link>
             </div>
           </div>
         </div>
