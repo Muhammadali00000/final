@@ -1,12 +1,12 @@
 import React from 'react'
-import Excers from '../components/Excurs/Excers'
+import Excurs from '../components/Excurs/Excurs'
 import GallerySection from '../components/GallerySection/GallerySection'
 
 const Excursion = () => {
   return (
     <>
     <GallerySection/>
-    <Excers/>
+    <Excurs/>
     </>
   )
 }
